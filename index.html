@@ -11,6 +11,21 @@
         <h1>Blood Pressure Tracker</h1>
     </header>
     <main>
+        <h1><span>Blood Pressure Calculator</span></h1>
+<p>This <strong>blood pressure calculator</strong> estimates your mean arterial pressure based on your values of systolic and diastolic pressures. You can read more about these determinations below the form.</p>
+<div>Systolic pressure (SP):<span>*</span></div>
+        <div>
+            <input id="sp" type="text" placeholder="mmHg" >
+        </div>
+
+        <div>Diastolic pressure (DP):<span>*</span></div>
+        <div>
+            <input id="dp" type="text" placeholder="mmHg">
+        </div>
+
+          <input type="submit" name="submit" value="Calculate" onclick="check()" />
+          <input type="button" value="Reset" onclick="rst1()" />
+<div id="FINISH"></div>
         <section id="input-section">
             <h2>Enter Your Blood Pressure</h2>
             <form id="bp-form">
